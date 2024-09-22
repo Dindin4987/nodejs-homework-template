@@ -7,8 +7,8 @@
 
 // describe("Test @POST /api/users/login", () => {
 //   const signInData = {
-//     email: "marvin@example.com",
-//     password: "examplepassword",
+//     email: "din@example.com",
+//     password: "examplepassword9",
 //   };
 
 //   const mockUserId = "mockUserId";
