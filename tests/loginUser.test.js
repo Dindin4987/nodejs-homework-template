@@ -1,7 +1,7 @@
 import request from "supertest";
 import { app } from "../app.js";
 import { User } from "../models/usersModel.js";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypntjs";
 import jwt from "jsonwebtoken";
 import { jest } from "@jest/globals";
 
