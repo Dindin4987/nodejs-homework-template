@@ -4,6 +4,7 @@ import { contactValidation, favoriteValidation } from "../validations/validation
 import { httpError } from "../helpers/httpError.js";
 
 const getAllContacts = async (req, res) => {
+  // for pagination
   const { page = 1, limit = 20, favorite } = req.query;
   const query = favorite ? { favorite: true } : {};
 
